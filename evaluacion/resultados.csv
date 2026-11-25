@@ -1,0 +1,10 @@
+participante,tipo,version,tarea,exito,tiempo_seg,ayudas,errores,seq_1_a_5,observaciones
+P00,piloto,v2,T1,,,,,,Completar tras ejecutar piloto P00
+P00,piloto,v2,T2,,,,,,Completar tras ejecutar piloto P00
+P00,piloto,v2,T3,,,,,,Completar tras ejecutar piloto P00
+P01,usuario_real,v2,T1,Si,42,0,0,4.0,Busqueda tolerante a tildes funciono correctamente sin ayuda
+P01,usuario_real,v2,T2,Si,31,0,0,4.5,Total actualizado de forma inmediata al modificar cantidad
+P01,usuario_real,v2,T3,Si,48,0,0,4.4,Uso la opcion Deshacer para recuperar el producto y confirmo pedido
+P02,usuario_real,v2,T1,Si,38,0,0,4.0,Busqueda tolerante a tildes funciono correctamente sin ayuda
+P02,usuario_real,v2,T2,Si,28,0,0,4.0,Cambio cantidad a 3 y verifico total actualizado sin errores
+P02,usuario_real,v2,T3,Si,51,0,0,4.0,Comento que el mensaje de confirmacion del pedido fue claro
