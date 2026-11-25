@@ -22,7 +22,17 @@
 
 ## 3. Sitemap
 
-
+```text
+CaféU 2.0 (Sitio Web)
+└── Inicio / Catálogo
+│   ├── Búsqueda de productos
+│   └── Detalle de producto
+└── Carrito
+│   ├── Modificar cantidad
+│   ├── Eliminar producto
+│   └── Confirmar pedido
+└── Confirmación
+```
 
 ## 4. User Flow
 
