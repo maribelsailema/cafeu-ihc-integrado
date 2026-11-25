@@ -5,7 +5,7 @@
 
 ## 1. Base de priorización
 
-Se toma como referencia `Fase3_4/docs/matriz-hallazgos.md` y `Fase3_4/docs/criterios-tecnicos.md` del paquete APE6. Los hallazgos H-01 a H-05 fueron triangulados; H-06 a H-12 son de inspección heurística y varios requieren verificar versión o comportamiento. Por ello, esta implementación no afirma que todos los hallazgos condicionales fueran defectos demostrados.
+Los hallazgos H-01 a H-05 fueron triangulados; H-06 a H-12 son de inspección heurística y varios requieren verificar versión o comportamiento. Por ello, esta implementación no afirma que todos los hallazgos condicionales fueran defectos demostrados.
 
 ## 2. Cambios técnicos incorporados
 
@@ -41,20 +41,8 @@ Se toma como referencia `Fase3_4/docs/matriz-hallazgos.md` y `Fase3_4/docs/crite
 
 Ejecutar con `npm test`.
 
-## 4. Validaciones manuales recomendadas
 
-- [ ] Recargar la aplicación y comprobar que el borrador persiste.
-- [ ] Añadir el mismo producto dos veces y verificar agrupación.
-- [ ] Añadir el mismo producto con notas distintas y verificar que se conserve como detalle separado.
-- [ ] Eliminar y deshacer antes de cinco segundos.
-- [ ] Eliminar sin deshacer y verificar que no reaparezca.
-- [ ] Intentar confirmar con carrito vacío.
-- [ ] Confirmar un pedido y comprobar el texto «Total a pagar».
-- [ ] Probar búsqueda «cafe», «CAFÉ» y «Café».
-- [ ] Probar en móvil y escritorio.
-- [ ] Probar recuperación ante almacenamiento bloqueado o cuota excedida.
-
-## 5. Limitaciones pendientes
+## 4. Limitaciones pendientes
 
 1. La persistencia es local al navegador; no representa una orden real recibida por la cafetería.
 2. El código de pedido se genera localmente y no garantiza unicidad entre dispositivos.
@@ -64,6 +52,6 @@ Ejecutar con `npm test`.
 6. La cancelación se registra únicamente en el almacenamiento local; no notifica a cocina ni anula una orden real.
 6. Debe realizarse una nueva prueba de usabilidad para afirmar mejora en eficacia, eficiencia o satisfacción.
 
-## 6. Resultado
+## 5. Resultado
 
 La versión contiene arquitectura separada, reglas de dominio, casos de uso, persistencia local y pruebas automatizadas de lógica. La aceptación de negocio y la validación con usuarios permanecen pendientes.
